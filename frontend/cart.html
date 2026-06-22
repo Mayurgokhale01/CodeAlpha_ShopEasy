@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Shopping Cart | ShopEasy</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>ShopEasy</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="cart.html">Cart</a>
+            <a href="login.html">Login</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="cart-list">
+            <h2>Your Cart</h2>
+            <ul id="cart-items"></ul>
+            <div class="order-summary">
+                <p>Total: <strong id="cart-total">$0.00</strong></p>
+                <form id="order-form">
+                    <input type="submit" value="Place Order">
+                </form>
+                <p id="empty-cart" class="message" style="display:none;">Add some products to your cart first.</p>
+            </div>
+        </section>
+    </main>
+
+    <script src="js/cart.js"></script>
+</body>
+</html>
